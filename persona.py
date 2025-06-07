@@ -5,3 +5,6 @@ class persona:
         
     def DarNombre(self):
         return self.nombre
+    
+    def CambiarNombre(self, nombre):
+        self.nombre=nombre
