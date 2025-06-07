@@ -6,3 +6,6 @@ class Carro:
         
     def frenar(self):
         self.velocidad=0
+    
+    def acelerar(self):
+        self.velocidad+=10
